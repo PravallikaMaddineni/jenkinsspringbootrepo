@@ -15,4 +15,9 @@ public String home()
 	{
 		return "Jenkins Demo";
 	}
+	@GetMapping("/test")
+    public String test() {
+      
+      return "deploy springboot using jenkins";
+    }
 }
